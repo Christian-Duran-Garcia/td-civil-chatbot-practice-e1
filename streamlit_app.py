@@ -1,9 +1,17 @@
 import streamlit as st
-import streamlit_chat
 from streamlit_chat import message
 from streamlit.components.v1 import html
 import requests
 import json
+
+import subprocess
+
+def install(package):
+    subprocess.check_call(["pip", "install", package])
+
+# Example usage
+library_to_install = "streamlit_chat"
+install(library_to_install)
 
 
 def on_input_change():
