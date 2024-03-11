@@ -15,7 +15,7 @@ install(library_to_install)
 
 
 def on_input_change():
-    url = "https://63ad-131-178-102-200.ngrok-free.app/question"
+    url = "https://c58b-131-178-102-200.ngrok-free.app/question"
     user_input = st.session_state.user_input
     question = {"question":user_input}
     headers = {'ngrok-skip-browser-warning':'true', 'Content-Type':'application/json'}
