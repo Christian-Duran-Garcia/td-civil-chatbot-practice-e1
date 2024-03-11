@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit_chat
 from streamlit_chat import message
 from streamlit.components.v1 import html
 import requests
